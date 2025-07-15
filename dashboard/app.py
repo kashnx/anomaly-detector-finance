@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sqlalchemy import create_engine
 
 # Set up postgresql://financial_project_user:zfNTcqmE0n5DUznuFzpIYJzm7LkGM2id@dpg-d1r5pmruibrs73f6f7ig-a/financial_project://financial_project_user:zfNTcqmE0n5DUznuFzpIYJzm7LkGM2id@dpg-d1r5pmruibrs73f6f7ig-a/financial_project://financial_project_user:zfNTcqmE0n5DUznuFzpIYJzm7LkGM2id@dpg-d1r5pmruibrs73f6f7ig-a/financial_project://financial_project_user:zfNTcqmE0n5DUznuFzpIYJzm7LkGM2id@dpg-d1r5pmruibrs73f6f7ig-a/financial_project://financial_project_user:zfNTcqmE0n5DUznuFzpIYJzm7LkGM2id@dpg-d1r5pmruibrs73f6f7ig-a/financial_project://financial_project_user:zfNTcqmE0n5DUznuFzpIYJzm7LkGM2id@dpg-d1r5pmruibrs73f6f7ig-a/financial_project://financial_project_user:zfNTcqmE0n5DUznuFzpIYJzm7LkGM2id@dpg-d1r5pmruibrs73f6f7ig-a/financial_project connection
-engine = create_engine("postgresql://financial_project_user:zfNTcqmE0n5DUznuFzpIYJzm7LkGM2id@dpg-d1r5pmruibrs73f6f7ig-a/financial_project")
+engine = create_engine("postgresql://financial_project_user:zfNTcqmE0n5DUznuFzpIYJzm7LkGM2id@dpg-d1r5pmruibrs73f6f7ig-a.oregon-postgres.render.com/financial_project")
 
 st.set_page_config(page_title='📊 Financial Forecasting Dashboard', layout='wide')
 st.title("📈 Financial Forecasting & Anomaly Detection Dashboard")
