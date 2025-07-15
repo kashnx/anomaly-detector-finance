@@ -68,3 +68,4 @@ df_low = df_profit[df_profit['Profit'] < threshold]
 df_low['date'] = pd.to_datetime(df_low['Year'].astype(str) + '-' + df_low['Month Number'].astype(str) + '-01')
 
 st.dataframe(df_low[['date', 'Profit']])
+
